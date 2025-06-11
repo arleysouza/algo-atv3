@@ -11,7 +11,7 @@ http://localhost:3003/operacoes/somatorio?inicio=1&fim=10
 // Rota para calcular o somatório
 router.get("/somatorio", async function (req, res) {
   const { inicio, fim } = req.query;
-
+  /* Codificar aqui */
 });
 
 /*
@@ -24,7 +24,7 @@ http://localhost:3003/operacoes/fatorial?numero=5
 // Rota para calcular o fatorial
 router.get("/fatorial", async function (req, res) {
   const { numero } = req.query;
-
+  /* Codificar aqui */
 });
 
 /*
@@ -38,7 +38,7 @@ http://localhost:3003/operacoes/media?numeros=1,2.9,3
 // Rota para calcular a média
 router.get("/media", async function (req, res) {
   const { numeros } = req.query;
-
+  /* Codificar aqui */
 });
 
 /*
@@ -50,7 +50,7 @@ http://localhost:3003/operacoes/primo?numero=9
  */
 router.get("/primo", async function (req, res) {
   const { numero } = req.query;
-
+  /* Codificar aqui */
 });
 
 // Exporta o router para ser usado no servidor principal
