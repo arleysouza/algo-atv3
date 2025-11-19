@@ -13,3 +13,7 @@ async function calcularSomatorio() {
 async function calcularPrimo() {
   /* Codificar aqui */
 }
+
+async function calcularMDC() {
+  /* Codificar aqui */
+}

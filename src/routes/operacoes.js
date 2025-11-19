@@ -53,5 +53,18 @@ router.get("/primo", async function (req, res) {
   /* Codificar aqui */
 });
 
+/*
+Testes:
+http://localhost:3001/operacoes/mdc
+http://localhost:3001/operacoes/mdc?a=x
+http://localhost:3001/operacoes/mdc?a=10&b=y
+http://localhost:3001/operacoes/mdc?a=10&b=15
+*/
+// Rota para calcular o somatório
+router.get("/mdc", function (req, res) {
+  const { a, b } = req.query;
+  /* Codificar aqui */
+});
+
 // Exporta o router para ser usado no servidor principal
 module.exports = router;

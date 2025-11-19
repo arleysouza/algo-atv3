@@ -70,3 +70,7 @@ GET /operacoes/media?numeros=1,2,3
 ```
 GET /operacoes/primo?numero=7
 ```
+5. Verificação de MDC
+```
+GET /operacoes/mdc?a=10&b=15
+```
